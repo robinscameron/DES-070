@@ -1,2 +1,2 @@
-# DES-070
-Lehigh University Web Design I 070 
+# GD322
+GD322 Georgian Court Web Design I

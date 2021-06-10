@@ -1,0 +1,147 @@
+
+    @font-face {
+        font-family: 'NeueHaasGroteskDisp W02';
+        src: url('NHaasGroteskDSW02-55Rg.woff2') format('woff2'),
+            url('NHaasGroteskDSW02-55Rg.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+     }
+    
+html {background-color:	#C0C0C0}
+
+
+body {
+  font-family: 'Neuehaasgroteskregular', Arial, sans-serif;
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.polcies {
+   max-width: 600px;
+}
+
+h1 {
+  font-size: 18px;
+  line-height: 2;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+
+.links {
+  margin-top: 200px;
+  
+}
+
+.class-info {
+ 
+}
+
+.syllabus {
+  margin-left: 80px;
+  margin-top: 100px;
+}
+
+.hover-title {
+  display: inline;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.description, .objectives {
+  max-width: 600px;
+}
+
+.policies {
+ 
+  max-width: 600px;
+}
+
+.week1 {
+  
+}
+
+.projects {
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.week8, .week4, .week9, .week6 {
+  max-width: 600px;
+}
+
+.weeks {
+    font-family: 'Neuehaasgroteskregular', Arial, sans-serif;
+margin-left: 100px;
+  
+ 
+ column-width: 300px;
+  line-height: 1.5;
+  color: #000000;
+  
+}
+
+
+.hover-image {
+  visibility: hidden;
+}
+
+
+
+body:not(.mobile) .hover-title:hover + .hover-image {
+  visibility: visible;
+  pointer-events: none;
+}
+
+.hover-image {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* Change width and height to scale images */
+  width: 40vw;
+  height: 40vh;
+}
+
+.hover-image img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  margin-bottom: 0;
+}
+
+
+@media (max-width: 720px) {
+
+    body {
+        
+        margin-left: 20px;
+        margin-top: 20px;
+   
+      }
+
+      .syllabus, .policies, .projects {
+        margin-left: 20px;
+
+    
+      }
+
+
+
+
+}
