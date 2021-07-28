@@ -10,14 +10,13 @@
     
 html {background-color:	#ffe0b9}
 
-
 body {
   font-family: 'Neuehaasgroteskregular', Arial, sans-serif;
   margin-left: 40px;
   margin-top: 40px;
   font-size: 16px;
   line-height: 1.5;
-  color: #005CFA;
+  color: #621A7A;
 }
 
 .polcies {
@@ -36,8 +35,14 @@ h2 {
 
 .links {
   margin-top: 200px;
+  color:#648DFA
   
 }
+
+a:visited {
+  color:#648DFA;
+}
+
 
 .class-info {
  
