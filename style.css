@@ -8,7 +8,7 @@
         font-display: swap;
      }
     
-html {background-color:	#ffe0b9}
+html {background-color:	#FFFFE0 }
 
 body {
   font-family: 'Neuehaasgroteskregular', Arial, sans-serif;
@@ -16,7 +16,7 @@ body {
   margin-top: 40px;
   font-size: 16px;
   line-height: 1.5;
-  color: #621A7A;
+  color: #4682B4;
 }
 
 .polcies {
@@ -35,12 +35,12 @@ h2 {
 
 .links {
   margin-top: 200px;
-  color:#648DFA
+  color:#FF7F50
   
 }
 
 a:visited {
-  color:#648DFA;
+  color:#FF7F50;
 }
 
 
