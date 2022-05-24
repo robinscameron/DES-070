@@ -44,7 +44,6 @@ a
     color:#001ce4;
     text-decoration: none;
     border-bottom: rgb(0, 153, 255) 0.125em solid;
-    display:inline-block;
     
 }
 
@@ -317,4 +316,10 @@ ol {
   }
 
   
+.top {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:none;
+  }
+
 } 
