@@ -182,15 +182,14 @@ ol {
             .last-row {
 
                 margin:20px;
-                padding:50px;
+                padding:20px;
                 
             border-top:rgb(255, 196, 119) 0.125em solid;
             border-right: rgb(255, 185, 119) 0.125em solid;
                 border-left: rgb(255, 185, 119) 0.125em solid;
               border-bottom: rgb(255, 185, 119) 0.125em solid;
-              padding: 10px 10px 10px 10px;
               display: grid;
-              grid-template-columns: 200px, auto;
+              grid-template-columns: 1fr 1fr;
                         
             
         
@@ -235,6 +234,23 @@ ol {
                 margin-right: 5px; 
               } 
 
+              .objectives {
+                margin:20px;
+                padding:30px;
+                display: grid;
+                grid-template-columns: 1fr;
+                border-top:rgb(255, 196, 119) 0.125em solid;
+            border-right: rgb(255, 185, 119) 0.125em solid;
+                border-left: rgb(255, 185, 119) 0.125em solid;
+              border-bottom: rgb(255, 185, 119) 0.125em solid;
+              }
+
+
+              .policies {
+                padding: 10px 10px 10px 10px;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+              }
 
 .hover-image {
     visibility: hidden;
