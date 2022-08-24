@@ -1,2 +1,2 @@
-# GD322
-GD322 Georgian Court Web Design I
+# DES 070
+Lehigh Web Design I
